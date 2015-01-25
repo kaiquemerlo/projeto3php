@@ -1,0 +1,73 @@
+body h2{
+	font-size: 2em;
+}
+body h3{
+	margin:0;
+}
+
+body{
+
+}
+
+.bg{
+    background: url("../imagens/bg-surf.jpg") no-repeat center center fixed;
+    max-width: 100%; 
+}
+
+.menu{
+	padding:25px 0;
+}
+
+#barra-style{
+	opacity: 0.8;
+}
+
+#box{
+	background-color: #FFFFFF;
+	opacity: 0.5;
+	border-radius: 50px 0px 0px 0px;
+	padding:0 0 20px 0;
+	height: 100%;
+	min-width:221px;
+}
+
+#box2{
+	background-color: #FFFFFF;
+	opacity: 0.5;
+	padding:0 0 20px 0;
+	min-width:221px;
+	height: 100%;
+}
+
+
+ul#lista_end{
+	list-style-type: none;
+	margin:0;
+	min-height: 271px;
+}
+
+ul#lista_end li{
+	padding:10px;
+	color:#FFF;
+}
+
+ul#lista_end li ul{
+	list-style-type: none;
+	margin:0;
+	
+}
+
+ul#lista_end li ul li{
+	list-style-type: none;
+	margin:0;
+	
+}
+
+
+
+#lista_end{
+	margin:0 15px;
+	float:left;
+	background: black;
+
+}
