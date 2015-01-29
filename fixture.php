@@ -284,8 +284,9 @@ Essa assinatura demonstra a nossa vocação pela natureza, pela emoção, por co
 	</div>'
 );
 
+$cont_paginas = sizeof($nomes_paginas);
 
-for($i = 1; $i<=6; $i++ ){
+for($i = 1; $i<=$cont_paginas; $i++ ){
 
 $titulo   = $titulo_paginas[$i];
 $pagina   = $nomes_paginas[$i];
@@ -305,12 +306,6 @@ $conteudos[] = $conteudo;
 }
 
 
-foreach($paginas as $p){
-	echo $p . '<br>';
-}
-foreach($conteudos as $c){
-	echo $c . '<br>';
-}
 echo "/\OK/\\<br>";
 
 
