@@ -61,8 +61,15 @@ if(isset($_POST['pesquisar'])){
 	$stmt->bindValue('pesquisa', $pesquisa); 
 	$stmt->execute();
 	$resposta = $stmt->fetch(PDO::FETCH_ASSOC);
+	$titulo = $resposta['titulo'];
+	$conteudo = $resposta['conteudo'];
+	$data = date('Y');
 
-	echo $resposta;
+	$conteudo = $resposta['conteudo'];    
+
+	echo $conteudo;
+
+
 	die();
 
 }
